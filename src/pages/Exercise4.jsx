@@ -27,10 +27,10 @@ export default function Exercise4() {
     >
       <div className="py-4">
         <ul className="list-disc list-inside space-y-1 text-gray-700">
-          {fruits.map((fruit) => {
+          {fruits.map((fruit, i) => (
             // TODO: return an <li> element that displays the fruit name
-            return null
-          })}
+            <li key={i}>{fruit}</li>
+          ))}
         </ul>
       </div>
     </ExerciseLayout>
