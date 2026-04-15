@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="bg-indigo-600 text-white shadow-md">
       <div className="max-w-3xl mx-auto px-4 py-3 flex items-center justify-between">
         <Link to="/" className="text-lg font-bold tracking-tight hover:opacity-80">
-          🎓 Peer Review Demo
+          🎓 REDI School – AI Assisted Review Demo
         </Link>
         <div className="flex gap-2">
           {exercises.map((n) => (

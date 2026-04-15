@@ -31,7 +31,7 @@ const exercises = [
 export default function Home() {
   return (
     <div>
-      <h1 className="text-3xl font-bold text-gray-800 mb-2">Welcome to Peer Review Demo</h1>
+      <h1 className="text-3xl font-bold text-gray-800 mb-2">REDI School – AI Assisted Review Demo</h1>
       <p className="text-gray-500 mb-8 text-sm">
         Each exercise below contains a small intentional issue. Fix it, open a pull request, and swap
         reviews with a classmate.
